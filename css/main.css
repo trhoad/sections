@@ -1,0 +1,39 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  background-color: #eee9d3;
+  padding: 2em;
+  align-items: center;
+}
+
+button {
+  display: block;
+  text-decoration: none;
+  border-radius: 6px;
+  padding: .6em;
+  border: 3px solid #333;
+  background-color: #eee9d3;
+}
+
+img {
+  display: inline-block;
+  width: 100%;
+  max-width: 25em;
+}
+
+h1 {
+  display: inline-block;
+  max-width: 25em;
+}
+
+p {
+  display: inline-block;
+  max-width: 25em;
+}
