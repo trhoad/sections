@@ -9,8 +9,8 @@ html {
 body {
   font-family: 'Lato', sans-serif;
   background-color: #eee9d3;
-  padding: 2em;
-  align-items: center;
+  padding: 2em 0;
+  vertical-align: middle;
 }
 
 button {
@@ -20,20 +20,29 @@ button {
   padding: .6em;
   border: 3px solid #333;
   background-color: #eee9d3;
+  color: #666;
 }
 
 img {
   display: inline-block;
   width: 100%;
   max-width: 25em;
+  text-align: center;
 }
 
-h1 {
+h2 {
   display: inline-block;
   max-width: 25em;
+  text-align: left;
+
 }
 
 p {
   display: inline-block;
   max-width: 25em;
+  text-align: left;
+}
+
+.p {
+  display: inline-block;
 }
