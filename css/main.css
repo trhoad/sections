@@ -12,16 +12,10 @@ body {
   line-height: 1.5;
   margin: 0;
   text-align: center;
-  padding: 2em 0;
 }
 
-button {
-  display: block;
-  border-radius: 6px;
-  border: 3px solid #333;
-  background-color: #eee9de;
-  padding: .75em 1em;
-  font-size: 1rem;
+section {
+  padding: 2em 0;
 }
 
 img {
@@ -30,15 +24,29 @@ img {
   text-align: center;
 }
 
+.btn {
+  display: inline-block;
+  border-radius: 6px;
+  border: 3px solid #333;
+  background-color: #eee9de;
+  padding: .4em .75em .5em;
+  font-size: 1rem;
+  color: #333;
+  text-decoration: none;
+}
+
 h2 {
   display: block;
   text-align: left;
+  margin: 0;
+  padding: 0 0 1em;
 }
 
 p {
   display: inline-block;
   text-align: left;
-  margin: 0 0 1.5em;
+  margin-bottom: 1.5em;
+  margin-top: 0;
   font-weight: lighter;
 }
 
@@ -46,16 +54,17 @@ p {
   vertical-align: middle;
   display: inline-block;
   max-width: 25em;
-  padding: .4em .75em .5em;
+  padding: 1em;
+  text-align: left;
 }
 
 .img {
   vertical-align: middle;
   display: inline-block;
   max-width: 25em;
-  padding: .4em .75em .5em;
+  padding: 1em;
 }
 
-section button:hover {
+.btn:hover {
   background-color: #666;
 }
